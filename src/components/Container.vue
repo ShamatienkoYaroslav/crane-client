@@ -156,7 +156,6 @@
           })
           .then(function(res) {
             self.loading = false
-            console.log(res.body);
             Object.assign(self, res.body)
           })
       },
