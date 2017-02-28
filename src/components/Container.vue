@@ -151,7 +151,7 @@
         var self = this
         this.loading = true
         this.$http.get(url)
-          .then(function(res) {return self.$http.get(server)})
+          .then(function(res) {return self.$http.get('/status')})
           .then(function(res) {
             self.loading = false
             Object.assign(self, res.body)
