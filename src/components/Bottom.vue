@@ -26,7 +26,7 @@
   }
 </script>
 
-<style>
+<style scoped>
   #vendor {
     font-size: 1.35rem;
     margin-bottom: 1rem;

@@ -22,8 +22,6 @@
       this.$http.get('/about')
         .then(function(res) {
           self.versionNumber = res.body.version
-        }, function(res) {
-          console.log('/*Show toast*/')
         })
     },
     computed: {
@@ -37,7 +35,7 @@
   }
 </script>
 
-<style>
+<style scoped>
   #top {
     margin-bottom: 60px;
   }

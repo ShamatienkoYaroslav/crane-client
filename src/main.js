@@ -11,7 +11,8 @@ Vue.use(VueResorse)
 
 Vue.material.registerTheme('default', {
   primary: 'green',
-  accent: 'amber'
+  accent: 'amber',
+  warn: 'red'
 })
 
 /* eslint-disable no-new */
